@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     add-task-btn.addEventListener('click', addTask)
-    ["classList.add"]
+    classList.addEventListener('click')
 
     addButton.addEventListener('click', addTask);
     taskInput.addEventListener('keypress', (event) => {
