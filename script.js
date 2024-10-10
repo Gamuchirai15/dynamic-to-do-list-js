@@ -24,9 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         li.appendChild(removeButton);
         taskList.appendChild(li);
-        
+
         taskInput.value = '';
     }
+
+    add-task-btn.addEventListener('click', addTask)
 
     addButton.addEventListener('click', addTask);
     taskInput.addEventListener('keypress', (event) => {
